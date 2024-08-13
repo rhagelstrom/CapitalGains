@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- 
-  Please see the license.txt file included with this distribution for 
+<!--
+  Please see the license.txt file included with this distribution for
   attribution and copyright information.
 -->
 
 <root>
 	<icon name="CapitalGains" file="graphics/icons/CapitalGains.png" />
 
-	<icon name="char_resource" file="graphics/icons/char_inventory.png" />
+	<icon name="char_resource" file="graphics/icons/char_left_frame.png" />
 
 	<icon name="radial_power_action_resource" file="graphics/icons/coins.png" />
 	<icon name="button_action_resource" file="graphics/buttons/button_action_modifier.png" />
