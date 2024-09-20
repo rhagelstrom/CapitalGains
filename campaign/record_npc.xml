@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
-	<windowclass name="npc_combat" merge="join">
+	<windowclass name="npc_combat_actions" merge="join">
 		<script file="campaign/scripts/npc_main.lua" />
 		<sheetdata>
-			<header_column name="header_resources" insertbefore="traits_header">
+			<header_content_framed_headersimple name="header_resources" insertbefore="traits_header">
 				<static textres="power_header_resources"/>
-			</header_column>
+			</header_content_framed_headersimple>
 			<button_iedit name="resources_iedit">
 				<anchored to="header_resources" position="righthigh" offset="-20,0" />
 				<target>resources</target>
@@ -14,7 +14,7 @@
 				<anchored to="resources_iedit" position="lefthigh" offset="5,0" />
 				<target>resources</target>
 			</button_iadd>
-			<windowlist name="resources" insertbefore="traits_header">
+			<list_npcactions name="resources" insertbefore="traits_header">
 				<script>
 					function addEntry(bFocus)
 						local w = createWindow();
@@ -30,11 +30,6 @@
 						end
 					end
 				</script>
-				<anchored>
-					<top parent="columnanchor" anchor="bottom" relation="relative" offset="7" />
-					<left offset="0" />
-					<right offset="-5" />
-				</anchored>
 				<skipempty />
 				<datasource>.resources</datasource>
 				<class>resource_item</class>
@@ -44,7 +39,7 @@
 				<allowcreate />
 				<allowdelete />
 				<footer>footer_wide</footer>
-			</windowlist>
+			</list_npcactions>
 		</sheetdata>
 	</windowclass>
 

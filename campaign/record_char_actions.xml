@@ -20,7 +20,7 @@
 		<sheetdata>
 			<subwindow name="resources" insertbefore="actions">
 				<anchored>
-					<top parent="columnanchor" anchor="bottom" relation="relative" offset="0" />
+					<top parent="contentanchor" anchor="bottom" relation="relative" offset="0" />
 					<left />
 					<right />
 				</anchored>
@@ -33,10 +33,10 @@
 
 	<windowclass name="char_power_resources">
 		<sheetdata>
-			<anchor_column name="columnanchor" />
+			<anchor_column name="contentanchor" />
 			<label_charframetop name="resourcestitle">
 				<anchored height="20">
-					<top parent="columnanchor" anchor="bottom" relation="relative" offset="15" />
+					<top parent="contentanchor" anchor="bottom" relation="relative" offset="15" />
 					<left offset="15" />
 					<right offset="-10" />
 				</anchored>
@@ -80,7 +80,7 @@
 					end
 				</script>
 				<anchored>
-					<top parent="columnanchor" anchor="bottom" relation="relative" offset="5" />
+					<top parent="contentanchor" anchor="bottom" relation="relative" offset="5" />
 					<left offset="6" />
 					<right offset="3" />
 				</anchored>
