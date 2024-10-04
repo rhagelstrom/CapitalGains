@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
+	<!--
 	<windowclass name="charsheet_actions" merge="join">
 		<sheetdata>
 			<button_iedit name="actions_iedit">
@@ -15,6 +16,7 @@
 			</button_iedit>
 		</sheetdata>
 	</windowclass>
+	-->
 
 	<windowclass name="charsheet_actions_contents" merge="join">
 		<sheetdata>
